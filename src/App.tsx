@@ -1,7 +1,12 @@
-import { useState } from 'react'
+import { Button } from "./components/Button"
 
 export function App() {
   return (
-    <h1>Hellow World</h1>
-  )
+    <>
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+    </>
+  );
 }
