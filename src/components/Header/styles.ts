@@ -22,10 +22,12 @@ export const HeaderContainer = styled.header`
       border-bottom: 3px solid transparent;
 
       &:hover {
+        box-shadow: none;
         border-bottom: 3px solid ${(props) => props.theme['green-500']};
       }
 
       &.active {
+        box-shadow: none;
         color: ${(props) => props.theme['green-500']};
       }
     }
